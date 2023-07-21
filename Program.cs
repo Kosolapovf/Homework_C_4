@@ -15,3 +15,27 @@ Console.Write("введите число: ");
 int a = Convert.ToInt32(Console.ReadLine());
 f(a);
 */
+
+
+
+
+/* Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+452 -> 11
+82 -> 10
+9012 -> 12 */
+
+/* int f(int number)
+{
+int sum = 0;
+while (number > 0)
+{
+sum = sum + number % 10;
+number /= 10;
+}
+return sum;
+}
+Console.Clear();
+Console.Write("введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(f(number));
+*/
